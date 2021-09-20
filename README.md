@@ -3,7 +3,6 @@
 
 **Objective:** Simulate the Smart Gardening system, which users can monitor and control it remotely via Android App.
 
-
 **System Design:**
 
 Pi 4-
@@ -11,7 +10,6 @@ Pi 4-
 (1) Receives data from sensors and posts them to the cloud.
 
 (2) Gets data from the cloud and control the actuators.
-
 
 Mobile Phone-
 
@@ -25,9 +23,10 @@ Mobile Phone-
 
 [Section 3] Turn on/off water sprayer according to environment/settings.
 
-
 Section On Phone-
+
 if Refresh Clicked -> Get the newest value from cloud.
+
 if Change Settings Clicked -> Post current settings to cloud.
 
 
